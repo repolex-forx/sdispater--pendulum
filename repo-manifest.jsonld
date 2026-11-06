@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/sdispater/pendulum/commit/e06dacedc4cdea90fa1286b3965d180ab94cf251",
       "git:hexsha": "e06dacedc4cdea90fa1286b3965d180ab94cf251",
-      "repolex:parseStatus": "ast_complete",
-      "git:tagName": "3.3.0"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "3.3.0",
+      "repolex:parsedAt": "2026-11-06T03:41:29.797731+00:00"
     },
     {
       "@id": "https://repolex.ai/r/sdispater/pendulum/commit/5cbb931cd7e19f99ae74a8141f3133145f255f46",
