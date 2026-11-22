@@ -537,6 +537,65 @@
       ],
       "ast": [
         "aggregate/ast/aea611d7a1c15ed0da56505c3f370fe4446ba733/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/aea611d7a1c15ed0da56505c3f370fe4446ba733.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "python-dateutil",
+          "ecosystem": "PYPI",
+          "version": "2.6",
+          "githubOrg": "dateutil",
+          "githubRepo": "dateutil",
+          "githubUrl": "https://github.com/dateutil/dateutil",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "tzdata",
+          "ecosystem": "PYPI",
+          "version": "2020.1",
+          "githubOrg": "python",
+          "githubRepo": "tzdata",
+          "githubCommit": "842c5384d0a02c30de513b33277369d488f374c2",
+          "githubTag": "2020.1",
+          "githubUrl": "https://github.com/python/tzdata",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "time-machine",
+          "ecosystem": "PYPI",
+          "version": "2.6.0",
+          "githubOrg": "adamchainz",
+          "githubRepo": "time-machine",
+          "githubCommit": "d842ba78c8ea14a9e39352f5b791a552c735f594",
+          "githubTag": "2.6.0",
+          "githubUrl": "https://github.com/adamchainz/time-machine",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pyo3",
+          "ecosystem": "CARGO",
+          "version": "0.27.2",
+          "githubOrg": "pyo3",
+          "githubRepo": "pyo3",
+          "githubCommit": "117102d832d7bd7e66e75501e5722976b28b1a88",
+          "githubTag": "v0.27.2",
+          "githubUrl": "https://github.com/pyo3/pyo3",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-0.27.2/src/types/datetime.rs"
+        },
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.16.0",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+          "githubTag": "4.16.0",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "lsp",
+          "raw_name": "typing_extensions.py",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/typing_extensions.py"
+        }
       ]
     }
   ],
